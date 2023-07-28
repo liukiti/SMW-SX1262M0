@@ -27,7 +27,7 @@
 // --------------------------------------------------
 // Libraries
 
-#include <RoboCore_SMW_SX1262M0.h>
+#include <SMW_SX1262M0.h>
 
 #include <SoftwareSerial.h>
 

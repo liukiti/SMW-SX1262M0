@@ -48,6 +48,7 @@ class Buffer {
     Buffer(const Buffer&);
     ~Buffer();
     void append(uint8_t);
+    void insert(uint8_t);
     uint8_t available(void);
     void copy(uint8_t *);
     bool isFull(void);

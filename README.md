@@ -1,5 +1,5 @@
-RoboCore SMW_SX1262M0 Arduino Library
-=====================================
+Based on [RoboCore SMW_SX1262M0 Arduino Library](https://github.com/RoboCore/RoboCore_SMW-SX1262M0)
+-------------------
 
 [![RoboCore LoRaWAN Shield - Helix Antenna](https://d229kd5ey79jzj.cloudfront.net/1443/images/1443_1_M.png)](https://www.robocore.net/loja/produtos/1443)
 
