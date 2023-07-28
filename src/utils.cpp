@@ -3,8 +3,8 @@
 // https://scanftree.com/programs/c/c-code-to-convert-decimal-to-hexadecimal/
 void convertLongInt2HexArray(long int decimalNumber, char *hexaNumber)
 {
-    long int remainder, quotient;
-    int i = 1, j, temp;
+    long int quotient;
+    int i = 1, temp;
 
     if (decimalNumber < 0 || hexaNumber == NULL)
         return;

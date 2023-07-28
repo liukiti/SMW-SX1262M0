@@ -133,9 +133,11 @@ void Buffer::append(uint8_t b){
 //  @param (b) the byte to insert [uint8_t]
 void Buffer::insert(uint8_t b){
   if(!isFull()){
+    uint8_t last_i;
     for (uint8_t i = _index; i >= 0; i--)
     {
-      _buffer[i++] = _buffer[i];
+      last_i = i;
+      _buffer[last_i++] = _buffer[i];
     }
     _buffer[0] = b;
   }

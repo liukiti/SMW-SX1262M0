@@ -1927,7 +1927,7 @@ CommandResponse SMW_SX1262M0::_read_response(uint32_t timeout)
 
 #ifdef SMW_SX1262M0_DEBUG
   // debug
-  uint32_t realStop = millis();
+  // uint32_t realStop = millis();
   if (_stream_debug)
   {
     _stream_debug->printf("\r\n");
